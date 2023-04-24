@@ -9,6 +9,7 @@ let g:colors_name = "nvimgelion"
 hi TermCursor cterm=reverse gui=reverse
 hi Directory guifg=#fc735d
 hi ErrorMsg guifg=#fb3475
+hi EndOfBuffer guifg=NONE
 hi IncSearch guibg=#984695
 hi Search guibg=#984695
 hi MoreMsg guifg=#7cb375
