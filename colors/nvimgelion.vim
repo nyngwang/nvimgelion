@@ -6,7 +6,7 @@ endif
 
 let g:colors_name = "nvimgelion"
 
-hi TermCursor guifg=#0a1517 guibg=#fc735d
+hi TermCursor cterm=reverse gui=reverse
 hi Directory guifg=#fc735d
 hi ErrorMsg guifg=#fb3475
 hi IncSearch guibg=#984695
