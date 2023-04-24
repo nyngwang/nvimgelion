@@ -1,3 +1,11 @@
+hi clear
+
+if exists("syntax_on")
+  syntax reset
+endif
+
+let g:colors_name = "nvimgelion"
+
 hi TermCursor guifg=#0a1517 guibg=#fc735d
 hi Directory guifg=#fc735d
 hi ErrorMsg guifg=#fb3475
