@@ -82,7 +82,7 @@ hi DiagnosticUnderlineInfo cterm=undercurl gui=undercurl guisp=#b194fa
 hi DiagnosticUnderlineHint cterm=undercurl gui=undercurl
 hi DiagnosticUnderlineOk cterm=underline gui=underline guisp=LightGreen
 hi @text.literal guifg=#75797a
-hi Comment cterm=italic gui=italic
+hi Comment cterm=italic gui=italic guifg=#686858
 hi @text.reference guifg=#fcc25d
 hi @text.uri cterm=underline gui=underline guifg=#b194fa
 hi Underlined cterm=underline ctermfg=81 gui=underline guifg=#80a0ff
