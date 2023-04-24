@@ -17,6 +17,7 @@ hi CursorLineNr guifg=#75797a
 hi Question guifg=#7cb375
 hi StatusLine guifg=#75797a
 hi StatusLineNC guifg=#75797a
+hi SignColumn guibg=NONE
 hi VertSplit guifg=#984695 guibg=#0a1517
 hi Title guifg=#7cb375
 hi Visual guibg=#703871
