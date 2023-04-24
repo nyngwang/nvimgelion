@@ -2,7 +2,8 @@
 
 # Nvimgelion
 
-A Neovim theme for the anime Evangelion.
+A (Neo)vim theme for the anime
+[Evangelion](https://en.wikipedia.org/wiki/Neon_Genesis_Evangelion).
 
 </div>
 
