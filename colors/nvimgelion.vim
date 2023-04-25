@@ -17,6 +17,11 @@ hi @field guifg=#b8b8ff
 hi @variable.builtin.python guifg=#8bd450
 
 " debug Error for noice.nvim
+hi NoiceMini guibg=#030707
+hi NoiceCmdlinePopup guibg=#030707
+hi NoiceFormatEvent guifg=#8a817c
+hi NoiceFormatKind guifg=#bcb8b1
+hi NoiceFormatDate guifg=#aaaaaa
 hi Error guifg=#fb3475 guibg=bg
 hi ErrorMsg guifg=#fb3475 guibg=bg
 hi NvimInternalError guifg=#fb3475 guibg=bg
@@ -140,8 +145,6 @@ hi GitSignsDelete guifg=#fb3475
 hi GitSignsAdd guifg=#7cb375
 hi diffAdded guifg=#7cb375
 hi diffRemoved guifg=#fb3475
-hi NoiceCmdlinePopup guibg=#030707
-hi NoiceMini guibg=#030707
 hi GitSignsDeletePreview guifg=#eaf3f5 guibg=#321a26
 hi GitSignsAddInline guibg=#304936
 hi TabbyHL_f2e9de_1b2021_NONE guifg=#f2e9de guibg=#1b2021
