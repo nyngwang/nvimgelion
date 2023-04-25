@@ -16,6 +16,9 @@ hi @text.emphasis cterm=italic gui=italic
 hi @field.python guifg=#b8b8ff
 hi @variable.builtin.python guifg=#8bd450
 
+" Lazy.nvim.
+hi LazyButton guibg=#5a189a
+
 " debug Error for noice.nvim.
 hi NoiceMini guibg=#030707
 hi NoiceCmdlinePopup guibg=#030707
@@ -204,7 +207,6 @@ hi LirEmptyDirText guibg=#984695
 hi LirDir guifg=#fc735d
 hi NotifyLogTitle guifg=#7cb375
 hi TelescopeSelectionCaret guifg=#b194fa guibg=#984695
-hi LazyNormal guibg=#030707
 hi gitcommitHeader guifg=#d694fa
 hi TelescopePromptBorder guifg=#1f1c2a guibg=#1f1c2a
 hi gitcommitDiscardedFile guifg=#fb3475
