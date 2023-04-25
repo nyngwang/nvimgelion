@@ -18,6 +18,7 @@ hi @variable.builtin.python guifg=#8bd450
 
 " Lazy.nvim.
 hi LazyButton guibg=#5a189a
+hi LazyButtonActive guibg=#d7263d
 hi LazyDimmed guifg=#686858
 hi LazyProp guifg=#686858
 hi LazyCommit guifg=#aaaaaa
