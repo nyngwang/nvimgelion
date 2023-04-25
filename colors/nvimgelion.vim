@@ -34,6 +34,7 @@ hi IndentBlanklineSpaceChar cterm=nocombine ctermfg=NONE gui=nocombine guifg=#4d
 
 " main.
 hi TermCursor cterm=reverse gui=reverse
+hi LineNr guifg=#686858
 hi Directory guifg=#fc735d
 hi EndOfBuffer guifg=NONE
 hi IncSearch guibg=#984695
