@@ -20,6 +20,8 @@ hi @variable.builtin.python guifg=#8bd450
 hi LazyButton guibg=#5a189a
 hi LazyDimmed guifg=#686858
 hi LazyProp guifg=#686858
+hi LazyCommit guifg=#aaaaaa
+hi LazyCommitType guifg=#aaa1c8
 
 " debug Error for noice.nvim.
 hi NoiceMini guibg=#030707
