@@ -13,7 +13,7 @@ hi @text.reference guifg=#fcc25d
 hi @text.uri cterm=underline gui=underline guifg=#b194fa
 hi @text.strong cterm=bold gui=bold
 hi @text.emphasis cterm=italic gui=italic
-hi @field guifg=#b8b8ff
+hi @field.python guifg=#b8b8ff
 hi @variable.builtin.python guifg=#8bd450
 
 " debug Error for noice.nvim.
