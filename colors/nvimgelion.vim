@@ -14,6 +14,7 @@ hi @text.uri cterm=underline gui=underline guifg=#b194fa
 hi @text.strong cterm=bold gui=bold
 hi @text.emphasis cterm=italic gui=italic
 hi @field guifg=#b8b8ff
+hi @variable.builtin.python guifg=#8bd450
 
 " main.
 hi TermCursor cterm=reverse gui=reverse
