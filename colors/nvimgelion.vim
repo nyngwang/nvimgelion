@@ -6,6 +6,16 @@ endif
 
 let g:colors_name = "nvimgelion"
 
+" treesitter stuff.
+hi @tag.delimiter guifg=#75797a
+hi @text.literal guifg=#75797a
+hi @text.reference guifg=#fcc25d
+hi @text.uri cterm=underline gui=underline guifg=#b194fa
+hi @text.strong cterm=bold gui=bold
+hi @text.emphasis cterm=italic gui=italic
+hi @field guifg=#b8b8ff
+
+" main.
 hi TermCursor cterm=reverse gui=reverse
 hi Directory guifg=#fc735d
 hi ErrorMsg guifg=#fb3475
@@ -83,10 +93,7 @@ hi DiagnosticUnderlineWarn cterm=undercurl gui=undercurl guisp=#fc735d
 hi DiagnosticUnderlineInfo cterm=undercurl gui=undercurl guisp=#b194fa
 hi DiagnosticUnderlineHint cterm=undercurl gui=undercurl
 hi DiagnosticUnderlineOk cterm=underline gui=underline guisp=LightGreen
-hi @text.literal guifg=#75797a
 hi Comment cterm=italic gui=italic guifg=#686858
-hi @text.reference guifg=#fcc25d
-hi @text.uri cterm=underline gui=underline guifg=#b194fa
 hi Underlined cterm=underline ctermfg=81 gui=underline guifg=#80a0ff
 hi MatchParen guibg=#1f1c2a
 hi Ignore ctermfg=0 guifg=bg
@@ -146,7 +153,6 @@ hi NotifyDEBUGTitle guifg=#75797a
 hi CmpDocumentation guibg=#030707
 hi markdownCodeDelimiter guifg=#75797a
 hi markdownCode guifg=#75797a
-hi @tag.delimiter guifg=#75797a
 hi gitcommitSummary guifg=#b194fa
 hi NotifyDEBUGIcon guifg=#75797a
 hi NotifyDEBUGBorder guifg=#75797a
@@ -169,7 +175,6 @@ hi mkdCde guifg=#75797a
 hi mkdListItem guifg=#d694fa
 hi mkdHeading guifg=#fcc25d
 hi vimOption guifg=#7cb375
-hi @text.strong cterm=bold gui=bold
 hi gitcommitDiscardedType guifg=#fb3475
 hi gitcommitSelectdType guifg=#7cb375
 hi gitcommitUnmergedFile guifg=#fcc25d
@@ -189,7 +194,6 @@ hi TelescopeSelectionCaret guifg=#b194fa guibg=#984695
 hi LazyNormal guibg=#030707
 hi gitcommitHeader guifg=#d694fa
 hi TelescopePromptBorder guifg=#1f1c2a guibg=#1f1c2a
-hi @text.emphasis cterm=italic gui=italic
 hi gitcommitDiscardedFile guifg=#fb3475
 hi TelescopePromptNormal guibg=#1f1c2a
 hi TelescopeNormal guibg=#030707
