@@ -72,9 +72,28 @@ add `use` before the `{` if you're using packer.nvim.
   end
 }
 ```
+### for `lukas-reineke/indent-blankline.nvim`
 
+to have the [VSCode-like context highlight](https://github.com/lukas-reineke/indent-blankline.nvim#with-context-indent-highlighted-by-treesitter) provided by indent-blankline to work properly: (I like orange, but you can change the color yourself)
 
-### TODO
+```lua
+vim.api.nvim_create_autocmd({ 'ColorScheme', 'FileType' }, {
+  pattern = '*',
+  callback = function ()
+    vim.cmd([[
+      hi IndentBlanklineChar gui=nocombine guifg=#444C55
+      hi IndentBlanklineSpaceChar gui=nocombine guifg=#4d5154
+      hi IndentBlanklineContextChar gui=nocombine guifg=#FB5E2A
+      " NOTE: don't use `gui=nocombine` here to have correct coloring of gitsigns.nvim.
+      hi IndentBlanklineContextStart gui=underline guisp=#FB5E2A
+    ]])
+  end,
+})
+```
+
+<img src="https://user-images.githubusercontent.com/24765272/234414708-ef6fe762-a4c1-492a-86e8-49e81687e286.png" width="400">
+
+## TODO
 
 - [ ] Check for redundant highlight group(s), if any.
 - [ ] Extract plugin highlight groups.
