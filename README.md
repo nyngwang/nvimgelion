@@ -15,15 +15,24 @@ A (Neo)vim theme for the anime
 
 You just `color nvimgelion` after installation.
 
+### Dependencies
+
+- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+
 
 ### For vimmers
 
 Vim-Plug
 
 ```vim
-Plug 'nyngwang/nvimgelion'
-```
+call plug#begin()
+" ...
+Plug 'nyngwang/nvimgelion' " add this line.
+" ...
+call plug#end()
 
+set termguicolors " this line is required.
+```
 
 ### For nvimmers
 
