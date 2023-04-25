@@ -16,7 +16,7 @@ hi @text.emphasis cterm=italic gui=italic
 hi @field guifg=#b8b8ff
 hi @variable.builtin.python guifg=#8bd450
 
-" debug Error for noice.nvim
+" debug Error for noice.nvim.
 hi NoiceMini guibg=#030707
 hi NoiceCmdlinePopup guibg=#030707
 hi NoiceFormatEvent guifg=#8a817c
@@ -28,6 +28,9 @@ hi NvimInternalError guifg=#fb3475 guibg=bg
 hi LspDiagnosticsVirtualTextError guifg=#fb3475 guibg=bg
 hi DiagnosticError guifg=#fb3475 guibg=bg
 hi DiagnosticUnderlineError cterm=undercurl gui=undercurl guisp=#fb3475
+
+" indentblankline.
+hi IndentBlanklineSpaceChar cterm=nocombine ctermfg=NONE gui=nocombine guifg=#4d5154
 
 " main.
 hi TermCursor cterm=reverse gui=reverse
