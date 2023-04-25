@@ -30,7 +30,10 @@ hi DiagnosticError guifg=#fb3475 guibg=bg
 hi DiagnosticUnderlineError cterm=undercurl gui=undercurl guisp=#fb3475
 
 " indentblankline.
+hi IndentBlanklineChar gui=nocombine guifg=#444C55
 hi IndentBlanklineSpaceChar cterm=nocombine ctermfg=NONE gui=nocombine guifg=#4d5154
+hi IndentBlanklineContextChar gui=nocombine guifg=#FB5E2A
+hi IndentBlanklineContextStart gui=underline guisp=#FB5E2A
 
 " main.
 hi TermCursor cterm=reverse gui=reverse
