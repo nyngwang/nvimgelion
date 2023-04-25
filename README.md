@@ -32,6 +32,23 @@ Plug 'nyngwang/nvimgelion' " add this line.
 call plug#end()
 
 set termguicolors " this line is required.
+```
+
+### For nvimmers
+
+
+#### Vim-Plug
+
+(I forgot that nvim-treesitter only exists for neovim.)
+
+```vim
+call plug#begin()
+" ...
+Plug 'nyngwang/nvimgelion'
+" ...
+call plug#end()
+
+set termguicolors
 
 " the following lines are required to enabled nvim-treesitter be default.
 lua << EOF
@@ -41,9 +58,11 @@ require'nvim-treesitter.configs'.setup {
 EOF
 ```
 
-### For nvimmers
 
-Lazy.nvim (add `use` before the `{` if you're using packer.nvim)
+#### Lazy.nvim / packer.nvim
+
+add `use` before the `{` if you're using packer.nvim.
+
 
 ```lua
 {
