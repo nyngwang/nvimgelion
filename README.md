@@ -32,6 +32,13 @@ Plug 'nyngwang/nvimgelion' " add this line.
 call plug#end()
 
 set termguicolors " this line is required.
+
+" the following lines are required to enabled nvim-treesitter be default.
+lua << EOF
+require'nvim-treesitter.configs'.setup {
+  highlight = { enable = true }
+}
+EOF
 ```
 
 ### For nvimmers
