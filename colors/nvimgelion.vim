@@ -16,10 +16,17 @@ hi @text.emphasis cterm=italic gui=italic
 hi @field guifg=#b8b8ff
 hi @variable.builtin.python guifg=#8bd450
 
+" debug Error for noice.nvim
+hi Error guifg=#fb3475 guibg=bg
+hi ErrorMsg guifg=#fb3475 guibg=bg
+hi NvimInternalError guifg=#fb3475 guibg=bg
+hi LspDiagnosticsVirtualTextError guifg=#fb3475 guibg=bg
+hi DiagnosticError guifg=#fb3475 guibg=bg
+hi DiagnosticUnderlineError cterm=undercurl gui=undercurl guisp=#fb3475
+
 " main.
 hi TermCursor cterm=reverse gui=reverse
 hi Directory guifg=#fc735d
-hi ErrorMsg guifg=#fb3475
 hi EndOfBuffer guifg=NONE
 hi IncSearch guibg=#984695
 hi Search guibg=#984695
@@ -67,7 +74,6 @@ hi RedrawDebugNormal cterm=reverse gui=reverse
 hi RedrawDebugClear ctermbg=11 guibg=Yellow
 hi RedrawDebugComposed ctermbg=10 guibg=Green
 hi RedrawDebugRecompose ctermbg=9 guibg=Red
-hi Error guifg=#fb3475
 hi Todo guifg=#c51af9
 hi String guifg=#fcc25d
 hi Constant guifg=#c51af9
@@ -84,12 +90,10 @@ hi Type guifg=#7cb375
 hi Tag guifg=#7cb375
 hi Special guifg=#fb3475
 hi Delimiter guifg=#d694fa
-hi DiagnosticError guifg=#fb3475
 hi DiagnosticWarn guifg=#fc735d
 hi DiagnosticInfo guifg=#b194fa
 hi DiagnosticHint guifg=#75797a
 hi DiagnosticOk ctermfg=10 guifg=LightGreen
-hi DiagnosticUnderlineError cterm=undercurl gui=undercurl guisp=#fb3475
 hi DiagnosticUnderlineWarn cterm=undercurl gui=undercurl guisp=#fc735d
 hi DiagnosticUnderlineInfo cterm=undercurl gui=undercurl guisp=#b194fa
 hi DiagnosticUnderlineHint cterm=undercurl gui=undercurl
@@ -98,7 +102,6 @@ hi Comment cterm=italic gui=italic guifg=#686858
 hi Underlined cterm=underline ctermfg=81 gui=underline guifg=#80a0ff
 hi MatchParen guibg=#1f1c2a
 hi Ignore ctermfg=0 guifg=bg
-hi NvimInternalError guifg=#fb3475
 hi CmpItemAbbrDeprecated cterm=strikethrough gui=strikethrough guifg=#75797a
 hi CmpItemAbbrMatch guifg=#fc735d
 hi CmpItemAbbrMatchFuzzy guifg=#fc735d
@@ -149,7 +152,6 @@ hi TabbyHL_1b2021_5f506b_NONE guifg=#1b2021 guibg=#5f506b
 hi TabbyHL_f2e9de_5f506b_NONE guifg=#f2e9de guibg=#5f506b
 hi mkdCodeDelimiter guifg=#75797a
 hi LspDiagnosticsVirtualTextWarning guifg=#fc735d
-hi LspDiagnosticsVirtualTextError guifg=#fb3475
 hi NotifyDEBUGTitle guifg=#75797a
 hi CmpDocumentation guibg=#030707
 hi markdownCodeDelimiter guifg=#75797a
