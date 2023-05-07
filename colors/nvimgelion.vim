@@ -49,7 +49,7 @@ hi IndentBlanklineContextStart gui=underline guisp=#FB5E2A
 hi TermCursor cterm=reverse gui=reverse
 hi LineNr guifg=#686858
 hi Directory guifg=#fc735d
-hi EndOfBuffer guifg=NONE
+hi EndOfBuffer guifg=#403d39
 hi IncSearch guibg=#984695
 hi Search guibg=#984695
 hi MoreMsg guifg=#7cb375

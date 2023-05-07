@@ -72,6 +72,7 @@ add `use` before the `{` if you're using packer.nvim.
   end
 }
 ```
+
 ### for `lukas-reineke/indent-blankline.nvim`
 
 to have the [VSCode-like context highlight](https://github.com/lukas-reineke/indent-blankline.nvim#with-context-indent-highlighted-by-treesitter) provided by indent-blankline to work properly: (I like orange, but you can change the color yourself)
