@@ -6,6 +6,14 @@ endif
 
 let g:colors_name = "nvimgelion"
 
+" nvim-dap-ui.
+hi DapUIDecoration guifg=#c200fb
+hi DapUIValue guifg=#73628a
+hi DapUIModifiedValue guifg=#bdb2ff
+hi DapUIScope guifg=#ccff33
+hi DapUIStoppedThread guifg=#ccff33
+hi DapUIBreakpointsPath guifg=#d484ff
+
 " treesitter stuff.
 hi @tag.delimiter guifg=#75797a
 hi @text.literal guifg=#75797a
