@@ -68,7 +68,6 @@ hi IncSearch guibg=#984695
 hi Search guibg=#984695
 hi MoreMsg guifg=#7cb375
 hi ModeMsg cterm=bold gui=bold
-hi CursorLineNr guifg=#75797a
 hi Question guifg=#7cb375
 hi StatusLine guifg=#75797a
 hi StatusLineNC guifg=#75797a
@@ -95,14 +94,10 @@ hi PmenuThumb guibg=#0a1517
 hi TabLine guifg=#75797a
 hi TabLineSel guifg=#75797a guibg=#0a1517
 hi TabLineFill guifg=#75797a
-hi CursorColumn guibg=#030707
-hi CursorLine guibg=#4d194d
 hi ColorColumn guibg=#030707
 hi NormalFloat guibg=#0a1517
 hi FloatBorder guifg=#75797a
 hi WinBar cterm=bold gui=bold
-hi Cursor guifg=#0a1517 guibg=#fc735d
-hi lCursor guifg=bg guibg=fg
 hi Normal guifg=#eaf3f5 guibg=#0a1517
 hi FloatShadow guibg=Black blend=80
 hi FloatShadowThrough guibg=Black blend=100
@@ -223,7 +218,6 @@ hi TelescopePromptTitle guibg=#1f1c2a
 hi NotifyBackground guibg=#0a1517
 hi LuasnipInsert guifg=#d694fa
 hi LuasnipChoice guifg=#c51af9
-hi CursorLineLir guibg=#984695
 hi LirEmptyDirText guibg=#984695
 hi LirDir guifg=#fc735d
 hi NotifyLogTitle guifg=#7cb375
