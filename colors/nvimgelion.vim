@@ -36,10 +36,14 @@ hi LazyCommitType guifg=#aaa1c8
 
 " debug Error for noice.nvim.
 hi NoiceMini guibg=#030707
-hi NoiceCmdlinePopup guibg=#030707
+hi NoiceCmdlinePopup guibg=#1b1b1e
+hi NoiceCmdlineItems guibg=#1b1b1e
+hi NoiceScrollbarThumb guibg=#ff6392
+hi NoiceScrollbar guibg=#212d40
 hi NoiceFormatEvent guifg=#8a817c
 hi NoiceFormatKind guifg=#bcb8b1
 hi NoiceFormatDate guifg=#aaaaaa
+hi Macro guifg=#ffb5a7
 hi Error guifg=#fb3475 guibg=bg
 hi ErrorMsg guifg=#fb3475 guibg=bg
 hi NvimInternalError guifg=#fb3475 guibg=bg
@@ -88,7 +92,7 @@ hi SpellCap cterm=undercurl gui=undercurl guisp=#fc735d
 hi SpellRare cterm=undercurl gui=undercurl guisp=#fb3475
 hi SpellLocal cterm=undercurl gui=undercurl guisp=#d694fa
 hi Pmenu guibg=#030707
-hi PmenuSel guibg=#984695
+hi PmenuSel guifg=#ffb5a7  guibg=#233252
 hi PmenuSbar guibg=#030707
 hi PmenuThumb guibg=#0a1517
 hi TabLine guifg=#75797a
