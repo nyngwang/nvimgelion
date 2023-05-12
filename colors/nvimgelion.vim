@@ -43,7 +43,7 @@ hi NoiceScrollbar guibg=#212d40
 hi NoiceFormatEvent guifg=#8a817c
 hi NoiceFormatKind guifg=#bcb8b1
 hi NoiceFormatDate guifg=#aaaaaa
-hi Macro guifg=#ffb5a7
+hi Macro guifg=#9ef01a
 hi Error guifg=#fb3475 guibg=bg
 hi ErrorMsg guifg=#fb3475 guibg=bg
 hi NvimInternalError guifg=#fb3475 guibg=bg
@@ -92,7 +92,7 @@ hi SpellCap cterm=undercurl gui=undercurl guisp=#fc735d
 hi SpellRare cterm=undercurl gui=undercurl guisp=#fb3475
 hi SpellLocal cterm=undercurl gui=undercurl guisp=#d694fa
 hi Pmenu guibg=#030707
-hi PmenuSel guifg=#ffb5a7  guibg=#233252
+hi PmenuSel guifg=#9ef01a  guibg=#403d39
 hi PmenuSbar guibg=#030707
 hi PmenuThumb guibg=#0a1517
 hi TabLine guifg=#75797a
