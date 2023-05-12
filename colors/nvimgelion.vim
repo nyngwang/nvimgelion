@@ -55,6 +55,12 @@ hi IndentBlanklineContextStart gui=underline guisp=#FB5E2A
 
 " main.
 hi TermCursor cterm=reverse gui=reverse
+hi Cursor guifg=#0a1517 guibg=#fc735d
+hi lCursor guifg=bg guibg=fg
+hi CursorLine guibg=#373e40
+hi CursorColumn guibg=#030707
+hi CursorLineLir guibg=#984695
+hi CursorLineNr guifg=#75797a
 hi LineNr guifg=#686858
 hi Directory guifg=#fc735d
 hi EndOfBuffer guifg=#403d39
@@ -90,7 +96,7 @@ hi TabLine guifg=#75797a
 hi TabLineSel guifg=#75797a guibg=#0a1517
 hi TabLineFill guifg=#75797a
 hi CursorColumn guibg=#030707
-hi CursorLine guibg=#030707
+hi CursorLine guibg=#4d194d
 hi ColorColumn guibg=#030707
 hi NormalFloat guibg=#0a1517
 hi FloatBorder guifg=#75797a
