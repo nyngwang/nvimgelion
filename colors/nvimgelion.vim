@@ -58,6 +58,9 @@ hi IndentBlanklineContextChar gui=nocombine guifg=#FB5E2A
 hi IndentBlanklineContextStart gui=underline guisp=#FB5E2A
 
 " main.
+hi Normal guifg=#d5c6e0 guibg=#0a1517
+hi NormalFloat guibg=#0a1517
+hi Identifier guifg=#d5c6e0 " hi Identifier guifg=#e2e4f6
 hi TermCursor cterm=reverse gui=reverse
 hi Cursor guifg=#0a1517 guibg=#fc735d
 hi lCursor guifg=bg guibg=fg
@@ -99,10 +102,8 @@ hi TabLine guifg=#75797a
 hi TabLineSel guifg=#75797a guibg=#0a1517
 hi TabLineFill guifg=#75797a
 hi ColorColumn guibg=#030707
-hi NormalFloat guibg=#0a1517
 hi FloatBorder guifg=#75797a
 hi WinBar cterm=bold gui=bold
-hi Normal guifg=#eaf3f5 guibg=#0a1517
 hi FloatShadow guibg=Black blend=80
 hi FloatShadowThrough guibg=Black blend=100
 hi RedrawDebugNormal cterm=reverse gui=reverse
@@ -113,7 +114,6 @@ hi Todo guifg=#c51af9
 hi String guifg=#fcc25d
 hi Constant guifg=#c51af9
 hi Function guifg=#fc735d
-hi Identifier guifg=#e2e4f6
 hi Conditional guifg=#b194fa
 hi Statement guifg=#b194fa
 hi Repeat guifg=#b194fa
