@@ -73,6 +73,7 @@ hi Directory guifg=#fc735d
 hi EndOfBuffer guifg=#403d39
 hi IncSearch guibg=#984695
 hi Search guibg=#984695
+hi MatchParen guibg=NONE guifg=#9ef01a
 hi MoreMsg guifg=#7cb375
 hi ModeMsg cterm=bold gui=bold
 hi Question guifg=#7cb375
@@ -135,7 +136,6 @@ hi DiagnosticUnderlineHint cterm=undercurl gui=undercurl
 hi DiagnosticUnderlineOk cterm=underline gui=underline guisp=LightGreen
 hi Comment cterm=italic gui=italic guifg=#686858
 hi Underlined cterm=underline ctermfg=81 gui=underline guifg=#80a0ff
-hi MatchParen guibg=#1f1c2a
 hi Ignore ctermfg=0 guifg=bg
 hi CmpItemAbbrDeprecated cterm=strikethrough gui=strikethrough guifg=#75797a
 hi CmpItemAbbrMatch guifg=#fc735d
