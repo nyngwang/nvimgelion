@@ -58,11 +58,11 @@ hi IndentBlanklineContextChar gui=nocombine guifg=#FB5E2A
 hi IndentBlanklineContextStart gui=underline guisp=#FB5E2A
 
 " main.
-hi Normal guifg=#d5c6e0 guibg=#0a1517
-hi NormalFloat guibg=#0a1517
+hi Normal guifg=#d5c6e0 guibg=#16161D
+hi NormalFloat ctermbg=NONE guibg=NONE
 hi Identifier guifg=#d5c6e0 " hi Identifier guifg=#e2e4f6
 hi TermCursor cterm=reverse gui=reverse
-hi Cursor guifg=#0a1517 guibg=#fc735d
+hi Cursor guifg=bg guibg=fg
 hi lCursor guifg=bg guibg=fg
 hi CursorLine guibg=#373e40
 hi CursorColumn guibg=#030707
@@ -80,7 +80,7 @@ hi Question guifg=#7cb375
 hi StatusLine guifg=#75797a
 hi StatusLineNC guifg=#75797a
 hi SignColumn guibg=NONE
-hi VertSplit guifg=#984695 guibg=#0a1517
+hi VertSplit guifg=#984695 guibg=bg
 hi Title guifg=#7cb375
 hi Visual guibg=#703871
 hi WarningMsg guifg=#fc735d
@@ -88,7 +88,7 @@ hi WildMenu ctermfg=0 ctermbg=11 guifg=Black guibg=Yellow
 hi Folded guibg=#030707
 hi DiffAdd guibg=#182822
 hi DiffChange guibg=#182822
-hi DiffDelete guibg=#0a1517
+hi DiffDelete guibg=bg
 hi DiffText guibg=#304936
 hi Conceal guifg=#7b3f58
 hi SpellBad cterm=undercurl gui=undercurl guisp=#c51af9
@@ -98,9 +98,8 @@ hi SpellLocal cterm=undercurl gui=undercurl guisp=#d694fa
 hi Pmenu guibg=#030707
 hi PmenuSel guifg=#9ef01a  guibg=#403d39
 hi PmenuSbar guibg=#030707
-hi PmenuThumb guibg=#0a1517
 hi TabLine guifg=#75797a
-hi TabLineSel guifg=#75797a guibg=#0a1517
+hi TabLineSel guifg=#75797a guibg=bg
 hi TabLineFill guifg=#75797a
 hi ColorColumn guibg=#030707
 hi FloatBorder guifg=#75797a
@@ -219,7 +218,7 @@ hi gitcommitUnmerged guifg=#7cb375
 hi gitcommitOverflow guifg=#fb3475
 hi Noise guifg=#d694fa
 hi TelescopePromptTitle guibg=#1f1c2a
-hi NotifyBackground guibg=#0a1517
+hi NotifyBackground guibg=bg
 hi LuasnipInsert guifg=#d694fa
 hi LuasnipChoice guifg=#c51af9
 hi LirEmptyDirText guibg=#984695
