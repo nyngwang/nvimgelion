@@ -34,6 +34,11 @@ hi LazyProp guifg=#686858
 hi LazyCommit guifg=#aaaaaa
 hi LazyCommitType guifg=#aaa1c8
 
+" fzf-lua.
+hi FzfLuaTitle guifg=#9ef01a
+hi FzfLuaPreviewBorder guifg=#33415c
+hi FzfLuaBorder guifg=#33415c
+
 " debug Error for noice.nvim.
 hi NoiceMini guibg=#030707
 hi NoiceCmdlinePopup guibg=#1b1b1e
