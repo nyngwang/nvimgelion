@@ -91,10 +91,10 @@ hi Visual guibg=#703871
 hi WarningMsg guifg=#fc735d
 hi WildMenu ctermfg=0 ctermbg=11 guifg=Black guibg=Yellow
 hi Folded guibg=#030707
-hi DiffAdd guibg=#182822
-hi DiffChange guibg=#182822
-hi DiffDelete guibg=bg
-hi DiffText guibg=#304936
+hi DiffAdd gui=NONE guibg=#182822
+hi DiffChange gui=NONE guibg=#182822
+hi DiffDelete gui=NONE guibg=bg
+hi DiffText gui=NONE guibg=#304936
 hi Conceal guifg=#7b3f58
 hi SpellBad cterm=undercurl gui=undercurl guisp=#c51af9
 hi SpellCap cterm=undercurl gui=undercurl guisp=#fc735d
@@ -177,8 +177,6 @@ hi LspReferenceWrite guibg=#1f1c2a
 hi GitSignsChange guifg=#fc735d
 hi GitSignsDelete guifg=#fb3475
 hi GitSignsAdd guifg=#7cb375
-hi diffAdded guifg=#7cb375
-hi diffRemoved guifg=#fb3475
 hi GitSignsDeletePreview guifg=#eaf3f5 guibg=#321a26
 hi GitSignsAddInline guibg=#304936
 hi TabbyHL_f2e9de_1b2021_NONE guifg=#f2e9de guibg=#1b2021
