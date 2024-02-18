@@ -212,7 +212,13 @@ hi TelescopeMatching guifg=#fc735d
 hi mkdCde guifg=#75797a
 hi mkdListItem guifg=#d694fa
 hi mkdHeading guifg=#fcc25d
-hi vimOption guifg=#7cb375
+"hi vimOption guifg=#7cb375
+"
+"
+"
+"
+"
+hi vimOption guifg=#9cb375
 hi gitcommitDiscardedType guifg=#fb3475
 hi gitcommitSelectdType guifg=#7cb375
 hi gitcommitUnmergedFile guifg=#fcc25d
