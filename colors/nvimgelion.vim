@@ -61,6 +61,8 @@ hi IndentBlanklineChar gui=nocombine guifg=#444C55
 hi IndentBlanklineSpaceChar cterm=nocombine ctermfg=NONE gui=nocombine guifg=#4d5154
 hi IndentBlanklineContextChar gui=nocombine guifg=#FB5E2A
 hi IndentBlanklineContextStart gui=underline guisp=#FB5E2A
+hi IblIndent gui=nocombine guifg=#444C55
+hi IblScope gui=nocombine guifg=#FB5E2A
 
 " main.
 hi Normal guifg=#d5c6e0 guibg=#16161D
